@@ -1,0 +1,21 @@
+/* FONDO GENERAL */
+body{
+    background: #f4f6f9;
+}
+
+/* TARJETAS */
+.card{
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* TITULOS */
+h2{
+    color: #0d6efd;
+}
+
+/* IMAGEN */
+img{
+    margin-top: 15px;
+}

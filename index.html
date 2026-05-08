@@ -5,84 +5,114 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Usabilidad Web</title>
 
-  <!-- Bootstrap -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-
-  <!-- CSS propio -->
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="/css/style.css">
 </head>
 
 <body>
 
-<!-- NAVBAR -->
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<!-- NAV -->
+<nav class="navbar bg-white border-bottom">
   <div class="container">
-    <a class="navbar-brand" href="#">Usabilidad Web</a>
-
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse" id="menu">
-      <ul class="navbar-nav ms-auto">
-        <li class="nav-item"><a class="nav-link" href="#inicio">Inicio</a></li>
-        <li class="nav-item"><a class="nav-link" href="#importancia">Importancia</a></li>
-        <li class="nav-item"><a class="nav-link" href="#imagen">Imagen</a></li>
-      </ul>
-    </div>
+    <span class="navbar-brand fw-bold">Usabilidad Web</span>
   </div>
 </nav>
 
-<!-- HEADER -->
-<header class="text-white text-center p-5 bg-primary">
-  <h1>Usabilidad Web</h1>
-  <p>Facilidad de uso en sitios web modernos</p>
+<!-- HERO -->
+<header class="hero">
+  <div class="container">
+    <h1>Usabilidad Web</h1>
+    <p>
+      Diseño enfocado en que los usuarios puedan navegar un sitio web de forma fácil, rápida y eficiente.
+    </p>
+  </div>
 </header>
 
-<div class="container my-5">
+<!-- CONTENIDO -->
+<main class="container py-5">
 
-  <!-- INICIO -->
-  <section id="inicio" class="card p-4 mb-4">
-    <h2>¿Qué es la usabilidad web?</h2>
+  <section class="block">
+    <h2>Definición</h2>
     <p>
-      La usabilidad web es la facilidad con la que los usuarios pueden navegar,
-      entender e interactuar con una página web de forma sencilla y eficiente.
+      La usabilidad web es una característica del diseño de sitios y aplicaciones que se enfoca en la facilidad
+      con la que los usuarios pueden interactuar con una página web. Su objetivo principal es que cualquier persona,
+      sin importar su experiencia, pueda navegar y entender el contenido sin dificultades.
+    </p>
+
+    <p>
+      Un sitio con buena usabilidad permite encontrar información rápidamente, realizar acciones sin errores
+      y disfrutar de una experiencia agradable.
     </p>
   </section>
 
-  <!-- IMPORTANCIA -->
-  <section id="importancia" class="card p-4 mb-4">
-    <h2>Importancia</h2>
+  <section class="block">
+    <h2>Importancia de la usabilidad web</h2>
+
+    <p>
+      La usabilidad es fundamental en el desarrollo web moderno porque influye directamente en la satisfacción
+      del usuario. Si un sitio es difícil de usar, las personas lo abandonan rápidamente.
+    </p>
+
+    <p>
+      Una buena usabilidad ayuda a:
+    </p>
+
     <ul>
-      <li>Mejora la experiencia del usuario</li>
-      <li>Facilita la navegación</li>
-      <li>Aumenta el tiempo en la página</li>
+      <li>Mejorar la experiencia del usuario</li>
+      <li>Aumentar el tiempo de permanencia en la página</li>
+      <li>Reducir errores al navegar</li>
+      <li>Facilitar el acceso a la información</li>
+      <li>Mejorar la imagen del sitio web o empresa</li>
     </ul>
   </section>
 
-  <!-- IMAGEN -->
-  <section id="imagen" class="card p-4 mb-4">
-    <h2>Ejemplo de usabilidad web</h2>
+  <section class="block">
+    <h2>Características de una buena usabilidad</h2>
 
     <p>
-      La siguiente imagen muestra un diseño moderno enfocado en el usuario.
+      Un sitio web usable debe cumplir con ciertos principios importantes:
     </p>
 
-    <img 
-      src="https://images.unsplash.com/photo-1555421689-491a97ff2040"
-      class="img-fluid rounded"
-      alt="Usabilidad web">
+    <ul>
+      <li><b>Simplicidad:</b> diseño limpio y sin elementos innecesarios</li>
+      <li><b>Claridad:</b> el contenido debe ser fácil de entender</li>
+      <li><b>Accesibilidad:</b> debe funcionar en todos los dispositivos</li>
+      <li><b>Navegación intuitiva:</b> el usuario no debe confundirse</li>
+      <li><b>Velocidad:</b> carga rápida del sitio web</li>
+    </ul>
   </section>
 
-</div>
+  <section class="block">
+    <h2>Ejemplo visual</h2>
+
+    <p>
+      La siguiente imagen representa un diseño moderno enfocado en la experiencia del usuario
+      y la organización de la información.
+    </p>
+
+    <img src="img/usabilidad.jpg" alt="Usabilidad web">
+  </section>
+
+  <section class="block">
+    <h2>Conclusión</h2>
+
+    <p>
+      La usabilidad web es un elemento clave en el diseño moderno de sitios web.
+      No solo se trata de que una página se vea bonita, sino de que sea funcional, fácil de usar y eficiente.
+    </p>
+
+    <p>
+      Un buen diseño centrado en la usabilidad mejora la satisfacción del usuario,
+      aumenta la interacción y hace que el sitio sea más exitoso.
+    </p>
+  </section>
+
+</main>
 
 <!-- FOOTER -->
-<footer class="bg-dark text-white text-center p-3">
+<footer>
   <p>© 2026 - Proyecto Usabilidad Web</p>
 </footer>
-
-<!-- Bootstrap JS -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
 </html>
